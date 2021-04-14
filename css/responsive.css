@@ -1,0 +1,374 @@
+/* 1180px - 1340px*/
+@media (max-width: 1340px){
+	.slider-box {
+		width: 480px;
+		height: 350px;
+		top: 23%;
+		right: 3%;
+	}
+	.name{
+		top: 35%;
+	}
+	.p-up{
+		font-size: 1.4rem !important;
+	}
+	.name>h2{
+		font-size: 4.8rem !important;
+	}
+	.p-bottom{
+		font-size: 1.3rem !important;
+	}
+	.button-container-1{
+		width: 3.8rem;
+		height: 3.8rem;
+	}
+	.me{
+		padding-top: 0;
+	}
+	.points{
+		margin: 3rem 3rem 0 2rem;
+	}
+	.point-img>img{
+		width: 10.8rem;
+    	height: 10.8rem;
+	}
+	.zip{
+		height: 300px;
+		background-size: contain;
+	}
+	.khodezip>img{
+		height: 300px;
+	}
+	.khadamat-laptop{
+		width: 580px;
+    	background-size: contain;
+	}
+	.khadamat-laptop-img{
+		top: 9%;
+		height: 60.4%;
+	}
+	.khadamat-content-text{
+		position: relative;
+	}
+	.khadamat-tozih{
+		position: absolute;
+		width: 290px;
+		top: 0;
+		right: 8%;
+	}
+	.khadamat-emkanat{
+		margin-top: 90%;
+	}
+	.sefaresh{
+		right: 14%;
+	}
+	.nemone-content{
+		padding: 0 4rem 0 2rem;
+	}
+	.nemone-main, .nemone-2lay, .nemone-3lay{
+		width: 190px !important;
+    	height: 250px !important;
+	}
+	.nemone-3lay{
+		left: 10% !important;
+	}
+	.nemone-box{
+		margin: 0;
+	}
+	.nemone-box:hover .nemone-2lay {
+    	transform: rotate(7deg);
+		right: -28px;
+		filter: none;
+	}
+	.nemone-box:hover .nemone-3lay {
+		transform: rotate(-7deg);
+		filter: none;
+		left: 0 !important;
+	}
+	.nemone-images{
+		width: 245px !important;
+    	position: relative;
+	}
+	.lastpost-content {
+    	margin: 3rem 3rem 0;
+	}
+	.lastpost-img{
+		position: relative;
+	}
+	.lastpost-date{
+		right: -75px;
+	}
+	.container-lastpost{
+		height: unset;
+	}
+	.container-nemone{
+		height: 650px;
+	}
+	.contact-title{
+		width: 39%;
+	}
+	.contant-main {
+		padding: 4rem 4rem 0;
+	}
+	.contact-tel {
+		margin: 8rem 4rem 0;
+	}
+	.contact-tel h3{
+		font-size: 2rem;
+	}
+	.tel-box span:first-child{
+		font-size: 2.4rem;
+	}
+	.tel-box span:nth-child(2){
+		font-size: 1.6rem;
+	}
+
+}
+/*  Lap top size fix*/
+@media (min-width: 1270px) and (max-width: 1340px){
+	.khadamat-laptop{
+		width: 640px;
+	}
+	.khadamat-laptop-img{
+		width: 64.4%;
+		right: 19%;
+		top: 9.4%;
+		height: 65%;
+	}
+}
+@media (max-width: 1180.2px){}
+
+/*   Mobile*/
+@media (max-width: 575.98px) {
+	.header-box{
+		display: flex;
+    	flex-direction: column;
+	}
+	.name{
+		order: 2;
+    	top: unset;
+    	position: unset;
+    	left: unset;
+		padding: 0 1rem 2rem;
+	}
+	.p-up{
+		font-size: 1.1rem;
+	}
+	.name>h2{
+		font-size: 2.8rem;
+	}
+	.p-bottom{
+		font-size: 1.1rem;
+	}
+	.header-social{
+		order: 3;
+		position: unset;
+		top: unset;
+		left: unset;
+	}
+	.social-box{
+		justify-content: center;
+	}
+	.slider-box{
+		order: 1;
+		width: 100%;
+		height: unset;
+		top: unset;
+		right: unset;
+		position: unset;
+	}
+	.slider{
+		width: 80% !important;
+		margin: 0 auto;
+		margin-top: 4rem;
+		
+	}
+	.carousel-item{
+		height: 350px;
+	}
+	.arrow-down{
+		display: none;
+	}
+	.me{
+		padding: 3rem 0 1rem;
+	}
+	.points{
+		border-radius: 10px;
+    	margin: 1.4rem;
+		margin-bottom: 0;
+		border: 1px solid #a97402;
+	}
+	.point-box{
+		display: flex;
+	}
+	.point-img>img {
+    width: 8rem;
+    height: 8rem;
+	}
+	.resp-m{
+		margin-bottom: 1.4rem;
+	}
+	.point-in{
+		padding: 0rem 2rem 1rem 2rem;
+	}
+	.zip{
+		height: 150px;
+		background-size: contain;
+	}
+	.khodezip>img{
+		width: 100%;
+		height: 100%;
+	}
+	.khadamat{
+		margin: 0 1.2rem 0 0.5rem;
+		width: unset;
+		height: unset;
+	}
+	.nav-pills a{
+		font-size: 0.8rem;
+		padding: 1rem 1.3rem 1rem 0.1rem;
+		text-align: center;
+	}
+	.khadamat-item{
+		display: none;
+	}
+	.khadamat-content-text{
+		padding: 0 0.8rem 0 0;
+	}
+	.khadamat-laptop{
+		width: 100%;
+		height: 214px;
+		margin: 0;
+	}
+	.khadamat-laptop-img{
+		height: 63%;
+	}
+	.khadamat-tozih{
+		padding-left: 1rem;
+	}
+	.khadamat-title label {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem 0 0.8rem;
+}
+	.wrap-container2{
+		height: 144vh;
+	}
+	.sefaresh{
+		width: 91%;
+		right: 5%;
+	}
+	.sefaresh-title label{
+		font-size: 1rem;
+		padding: 0.4rem 0.8rem 0 0.8rem;
+	}
+	.slider-png{
+		font-size: 7rem;
+		height: unset;
+	}
+	.carousel-caption{
+		height: unset;
+		padding: 0 13%;
+	}
+	.carousel-caption p{
+		font-size: .9rem;
+	}
+	.carousel-indicators li{
+		line-height: unset;
+	}
+	.container-nemone{
+		height: unset;
+	}
+	.nemone-main, .nemone-2lay, .nemone-3lay{
+		height: 300px !important;
+	}
+	.nemone-box{
+		height: unset;
+		margin-bottom: 90px;
+	}
+	.nemone-box a{
+		margin-right: 2rem;
+	}
+	.container-lastpost{
+		height: unset;
+	}
+	.lastpost-content {
+		margin: 3rem 4rem 0;
+	}
+	.contact-title{
+		width: 90%;
+	}
+	.container-contact{
+		height: unset;
+	}
+	.contant-main{
+		padding: 3rem 2.5rem;
+	}
+	.contact-form:hover, .contant-number:hover{
+		transform: unset;
+	}
+	.contact-form{
+		margin: 0;
+		margin-bottom: 2rem;
+		background: #efefef;
+		border: 1px solid #da9600;
+		height: 33rem;
+	}
+	.contant-number{
+		background: #efefef;
+		border: 1px solid #da9600;
+	}
+	.contact-tel {
+    	margin: 7rem 2rem 0;
+	}
+	.contact-tel h3{
+		color: #966700;
+		font-size: 2rem;
+	}
+	.tel-box span:first-child{
+		font-size: 2.5rem;
+	}
+	.tel-box span:nth-child(2){
+		font-size: 1.6rem;
+	}
+	.footer-logo{
+		width: 45%;
+	}
+	.footer-name h3{
+		font-size: 4rem;
+    	letter-spacing: -2px;
+	}
+	.footer-skills span{
+		font-size: .9rem;
+	}
+	.footer-name>p{
+		font-size: 1rem;
+	}
+	.footer-logo{
+		padding-top: 6rem;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
